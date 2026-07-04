@@ -5,10 +5,6 @@
 > [!WARNING]
 > Personal repo. Use at your own risk, no support.
 
-## Preview
-
-<img src=".github/preview.jpg" alt="preview"/>
-
 ## Stack
 
 - **Platform:** [Termux](https://termux.dev/)
@@ -17,6 +13,10 @@
 - **Editor:** [Neovim](https://neovim.io/) + [LazyVim](https://www.lazyvim.org/)
 - **Colorscheme:** [Gruvbox](https://github.com/morhetz/gruvbox)
 - **Font:** [Maple Mono Nerd Font](https://font.subf.dev/)
+
+## Preview
+
+<img src=".github/preview.jpg" alt="preview"/>
 
 ## Install deps
 
