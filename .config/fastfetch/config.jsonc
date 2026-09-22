@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fastfetch-cli/fastfetch/refs/heads/dev/doc/json_schema.json",
+  "logo": "android_small",
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    {
+      "type": "host",
+      "key": "󰄜"
+    },
+    {
+      "type": "os",
+      "key": ""
+    },
+    {
+      "type": "uptime",
+      "key": ""
+    },
+    {
+      "type": "packages",
+      "key": "󰏖"
+    },
+    {
+      "type": "memory",
+      "key": ""
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "format": "{size-used} / {size-total} ({size-percentage})",
+      "folders": "/data"
+    }
+  ],
+}
