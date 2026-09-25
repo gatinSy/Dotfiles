@@ -1,3 +1,8 @@
+.config/fish/conf.d/*
+!.config/fish/conf.d/aliases.fish
+!.config/fish/conf.d/fzf-theme.fish
+.config/fish/functions
+.config/fish/fish_plugins
 .config/fish/fish_variables
 .config/nvim/lazy-lock.json
 .termux/shell
