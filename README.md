@@ -1,6 +1,6 @@
 <h1 align="center">Gatin' Dotfiles</h1>
 
-<img src=".github/preview.jpg" alt="preview"/>
+<img src=".github/preview.png" alt="preview"/>
 
 > [!WARNING]
 > Personal repo. Use at your own risk, no support.
@@ -17,7 +17,7 @@
 ## Install deps
 
 ```bash
-pkg i -y clang nodejs neovim eza bat fish starship zoxide fzf git
+pkg i -y clang nodejs lua-language-server neovim eza bat fish starship zoxide fzf git
 ```
 ```fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
