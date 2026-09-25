@@ -1,39 +1,28 @@
 <h1 align="center">Gatin' Dotfiles</h1>
 
-<p align="center">Personal Termux setup</p>
+<img src=".github/preview.jpg" alt="preview"/>
 
 > [!WARNING]
 > Personal repo. Use at your own risk, no support.
 
 ## Stack
 
-- **Platform:** [Termux-Monet](https://github.com/Termux-Monet/termux-monet)
+- **Terminal:** [Termux-Monet](https://github.com/Termux-Monet/termux-monet)
 - **Shell:** [Fish](https://fishshell.com/) + [Fisher](https://github.com/jorgebucaran/fisher)
 - **Prompt:** [Starship](https://starship.rs/)
 - **Editor:** [Neovim](https://neovim.io/) + [LazyVim](https://www.lazyvim.org/)
 - **Colorscheme:** [Rosé-pine](https://rosepinetheme.com/)
 - **Font:** [Maple Mono Nerd Font](https://font.subf.dev/)
 
-## Preview
-
-<img src=".github/preview.jpg" alt="preview"/>
-
 ## Install deps
 
 ```bash
-pkg install -y \
-  clang \
-  nodejs \
-  neovim \
-  eza \
-  bat \
-  fish \
-  starship \
-  zoxide \
-  fzf \
-  git \
-
-# fish plugins
+pkg i -y clang nodejs neovim eza bat fish starship zoxide fzf git
+```
+```fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+```
+```fish
 fisher install \
   jorgebucaran/autopair.fish \
   jhillyerd/plugin-git \
