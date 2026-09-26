@@ -17,7 +17,7 @@
 ## Install deps
 
 ```bash
-pkg i -y clang nodejs lua-language-server neovim eza bat fish starship zoxide fzf git
+pkg i -y clang nodejs lua-language-server neovim eza bat fastfetch fish starship zoxide fzf git gh
 ```
 ```fish
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
